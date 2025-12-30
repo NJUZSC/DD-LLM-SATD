@@ -1,0 +1,4 @@
+TP: 183, FP: 41, TN: 10022, FN: 76
+Precision: 0.8170
+Recall: 0.7066
+F1 Score: 0.7578

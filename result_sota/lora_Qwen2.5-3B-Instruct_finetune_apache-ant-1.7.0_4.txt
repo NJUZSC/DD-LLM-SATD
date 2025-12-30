@@ -1,0 +1,4 @@
+TP: 95, FP: 22, TN: 3941, FN: 40
+Precision: 0.8120
+Recall: 0.7037
+F1 Score: 0.7540
