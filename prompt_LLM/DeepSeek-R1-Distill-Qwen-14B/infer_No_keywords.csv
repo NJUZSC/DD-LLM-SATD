@@ -1,0 +1,11 @@
+project_name,classification,comment_text,satd_orig,satd,predict
+apache-ant-1.7.0,DEFECT,// FIXME formatters are not thread-safe,1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,"// XXX: (Jon Skeet) The comment ""if it hasn't been done already"" may // not be strictly true. wrapper.maybeConfigure() won't configure the same // attributes/text more than once, but it may well add the children again, // unless I've missed something.",1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,"// I hate to admit it, but we don't know what happened // here.  Throw the Exception.",1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,"// Just a note: StarTeam has a status for NEW which implies // that there is an item  on your local machine that is not // in the repository.  These are the items that show up as // NOT IN VIEW in the Starteam GUI. // One would think that we would want to perhaps checkin the // NEW items (not in all cases! - Steve Cohen 15 Dec 2001) // Unfortunately, the sdk doesn't really work, and we can't // actually see  anything with a status of NEW. That is why // we can just check out  everything here without worrying // about losing anything.",1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,// the generated classes must not be added in the generic JAR! // is that buggy on old JOnAS (2.4) ??,1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,// todo: is this comment still relevant ?? // FIXME: need to use a SAXSource as the source for the transform // so we can plug in our own entity resolver,1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,"// This is turned off temporarily. There appears to be a bug // in SelectorUtils.matchPattern() where it is recursive on // Windows even if no ** is in pattern. //assertEquals(""FFFTFFFFFFFF"", results); // Unix // vs //assertEquals(""FFFTFFFFTFFF"", results); // Windows",1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,// pattern now holds ** while string is not exhausted // this will generate false positives but we can live with that.,1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,"// FIXME: Is ""No Namespace is Empty Namespace"" really OK?",1,1,UNKNOWN
+apache-ant-1.7.0,DEFECT,// FIXME this is actually not very cpu cycles friendly as we are converting from // dos to java while the underlying Sun implementation will convert // from java to dos time for internal storage...,1,1,UNKNOWN
